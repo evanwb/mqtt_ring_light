@@ -35,12 +35,12 @@ To use this code, you'll need the following:
 
 The code subscribes to the following MQTT topics:
 
-- `ringlight/brightness`: To control the brightness of the ring light. Messages should contain a numerical value representing the brightness level (e.g., `0` for off, `255` for full brightness).
-- `ringlight/status`: To receive status updates from the ring light.
+- `ring/brightness`: To control the brightness of the ring light. Messages should contain a numerical value representing the brightness level (e.g., `0` for off, `255` for full brightness).
+- `ring/status`: To receive status updates from the ring light.
 
 ## Example Usage
 
 Here's an example of how you can control the ring light using MQTT:
 
-- To set the brightness to 50%, publish a message to the topic `ringlight/brightness` with payload `128`.
+- To set the brightness to 50%, publish a message to the topic `ring/brightness` with payload `128`.
 
